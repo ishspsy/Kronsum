@@ -1,0 +1,36 @@
+
+%file description
+
+
+1.  Total_Dat.mat
+
+   This includes the moth data sets for the 14 moths,  including the following three data structure.
+ (a) Total_Datao:  which is the torque measurement data set whose dimension is N times 500, where N is the number of wingstrokes.
+ (b) Total_Data: which is the normalized torque measurement data set.
+ (c) Y_Data: which is the neural firing time (t_L and t_R) data sets whose dimension is N times 2, where the first column records t_L and the second column records t_R.
+
+2. new_fin_data.m
+  
+   This is the Matlab working file for the moth data analysis
+
+3. new_finsim1.m
+
+   This is the Matlab working file for the simulation analysis
+
+4. proj.m
+ 
+   This is the Matlab function, which provide the symmetric matrix which minimize the matrix l1 norm w.r.t. input matrix.
+
+5. proj1.m
+  
+   This is the Matlab function, which solves the following problem: for the vector v,
+    min ||w-v||_2     subject to ||w||_1 <= b
+   
+
+6. estimator_i2_lassoo.m
+
+   This is the Matlab function, which provides the proposed estimator \hat{\Theta}.  This uses the function composite2_new.m to solve the nodewise regression.
+
+7. composite2_new.m
+
+   This is the Matlab function, which includes the composite gradient descent algorithm.
