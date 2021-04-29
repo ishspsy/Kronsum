@@ -1,10 +1,8 @@
-# Kronsum: Kronecker sum covariance models for spatio-temporal data
 
 
 
 ## Overview
 
-*Kronsum* is a non-separable graphical model framework which can be used to describe a hidden graphical structure given single data. 
 
 
 
